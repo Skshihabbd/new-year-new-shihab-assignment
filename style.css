@@ -1,0 +1,485 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+main {
+  width: 1600px;
+  height:6726px;
+}
+
+.header-content {
+  width: 1320px;
+  height: 600px;
+  background-image: url(images/banner.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  border-radius: 16px;
+  background-color: rgb(80, 69, 69);
+
+  background-blend-mode: overlay;
+  left: 140px;
+}
+.description {
+  color: #fff;
+  position: absolute;
+  left: 530px;
+  top: 233px;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.heading {
+  width: 632px;
+  color: #fff;
+
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  position: absolute;
+  left: 344px;
+  top: 233px;
+  bottom: 177px;
+}
+
+.offer {
+}
+.offer-percentage {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 120px;
+}
+.bundle-offer {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  /* padding-top: 40px; */
+}
+.offer-category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  left: 595px;
+  height: 58px;
+  width: 410px;
+}
+.new-year-photo {
+  width: 802.9px;
+  height: 500px;
+  position: relative;
+  left: 399px;
+}
+
+.festive-banner {
+  width: 1320px;
+  height: 600px;
+  background-image: url(images/Vectorrr.png);
+  background-color: rgb(80, 69, 69);
+
+  background-blend-mode: overlay;
+  position: relative;
+  left: 140px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.festive-paragraph {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+
+  text-align: left;
+}
+.festive-heading {
+  width: 642px;
+  height: 142px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.festive-description {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.festive-button {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  position: relative;
+  left: 15px;
+}
+.festive-image {
+  position: absolute;
+  left: 70%;
+  bottom: 10%;
+}
+.location {
+  width: 1320px;
+  height: 482px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 140px;
+}
+.btn-btn {
+  padding-top: 46px;
+}
+.festive-btn {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.para-design {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+
+  text-transform: capitalize;
+}
+.time-design {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+
+  text-transform: capitalize;
+}
+
+.offer-celebration {
+  width: 1320px;
+  height: 463px;
+  display: flex;
+  margin-top: 120px;
+  gap: 70px;
+  margin-left: 140px;
+  align-items: center;
+}
+
+/* left-content design */
+.left-content {
+  width: 393px;
+  height: 255px;
+  line-height: 20px;
+}
+.celebration-context {
+  color: #f00;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.celebration-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+
+  text-transform: capitalize;
+}
+.celebration-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  width: 393px;
+}
+
+/* middle-content-design */
+.middle-content {
+  width: 463px;
+  height: 463px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+}
+.middle-image {
+  width: 364.844px;
+  height: 364.844px;
+}
+
+/* right-content-design */
+
+.right-content {
+  width: 276px;
+  height: 287px;
+  position: relative;
+  bottom: 80px;
+}
+.right-content-header {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1px;
+}
+.right-content-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+.right-content-image {
+  width: 140px;
+  height: 140px;
+}
+
+/* .discount-details-section */
+.discount-container {
+  width: 1320px;
+  height: 986;
+  margin-left: 140px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.discount-section {
+  /* margin-left: 140px; */
+  text-align: center;
+  background-image: url(images/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 100% 70%;
+}
+
+.discount-name {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+.discount-amount {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  margin: 0px;
+}
+.uniqe-style {
+  color: #f00;
+
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.discount-details {
+  color: rgba(7, 2, 17, 0.6);
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  align-items: center;
+  line-height: 30px;
+  width: 800px;
+  padding-left: 230px;
+}
+
+.images-11 {
+  position: relative;
+  top: 200px;
+  right: 100px;
+}
+.images-12 {
+  position: relative;
+  right: 150px;
+  bottom: 50px;
+}
+
+
+/* gift section design css */
+
+
+.gift-section{
+    height: 1103px;
+    width: 1320px;
+margin-left: 140px;
+margin-bottom: 120px;
+}
+.gift-text{
+    text-align: left;
+}
+
+.gift-item{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+
+}
+.gift-heading{
+    color: #070211;
+font-family: Merriweather;
+ font-size: 48px; 
+font-style: normal;
+margin: 0px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.gift-description{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+width: 896px;
+}
+.gift-image{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+column-gap: 24px;
+row-gap: 24px;
+}
+
+
+/* ---------contact-form-design
+
+------------------*/
+.contact-form{
+    width: 1320px;
+    height: 616px;
+   margin-left: 140px;
+
+   border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+align-items: center;
+text-align: center;
+}
+.heading-contact{
+    color: #070211;
+/* text-align: center; */
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin: 0px;
+}
+.contact-description{
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+/* text-align: center; */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+padding-left: 200px;
+
+
+}
+.label-btn{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+background: #FFF;
+    border: #fff;
+border: 0px whitesmoke;
+}
+input{
+    border:none;
+}
+button{
+    width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+position: relative ;
+right: 40px;
+ border: 0px; 
+
+}
+.button-text{
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.contact-icon{
+
+    padding-top: 80px;
+}
+
+
+/*------------------- footer-sectio
+
+
+
+
+----------------------*/
+
+.footer-section{
+
+     background: #070211;
+    width: 1600px;
+height: 609px;
+
+}
