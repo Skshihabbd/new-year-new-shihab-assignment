@@ -465,6 +465,17 @@ outline: none;
 input{
     border:none;
 }
+input::placeholder{
+
+  color: rgba(7, 2, 17, 0.30);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 15px;
+
+}
 button{
     width: 210px;
 height: 72px;
