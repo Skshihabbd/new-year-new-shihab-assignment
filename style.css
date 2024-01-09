@@ -1,11 +1,15 @@
 body {
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
+  
 }
 
 main {
   width: 1600px;
   height:6726px;
+   
+
+
 }
 
 .header-content {
@@ -19,7 +23,7 @@ main {
   background-color: rgb(80, 69, 69);
 
   background-blend-mode: overlay;
-  left: 140px;
+   margin-left: 140px; 
 }
 .description {
   color: #fff;
@@ -97,9 +101,11 @@ main {
 
   background-blend-mode: overlay;
   position: relative;
-  left: 140px;
+  margin-left: 140px;
   margin-top: 80px;
   margin-bottom: 80px;
+border-radius: 10px;
+
 }
 .festive-paragraph {
   padding-top: 20px;
@@ -158,6 +164,7 @@ main {
   align-items: center;
   position: relative;
   left: 140px;
+  border-radius: 10px;
 }
 .btn-btn {
   padding-top: 46px;
@@ -195,14 +202,17 @@ main {
 
   text-transform: capitalize;
 }
+/* offer-section-desing  
 
+
+*/
 .offer-celebration {
   width: 1320px;
   height: 463px;
   display: flex;
   margin-top: 120px;
   gap: 70px;
-  margin-left: 140px;
+ margin-left: 140px;
   align-items: center;
 }
 
@@ -211,6 +221,7 @@ main {
   width: 393px;
   height: 255px;
   line-height: 20px;
+ 
 }
 .celebration-context {
   color: #f00;
@@ -245,11 +256,17 @@ main {
   height: 463px;
   border-radius: 463px;
   border: 15px solid #f00;
+  background-image: url(images/Ellipse\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 364px 364px;
+background-position: center ;
+/* margin-right: 50px; */
+
 }
-.middle-image {
+/* .middle-image {
   width: 364.844px;
   height: 364.844px;
-}
+} */
 
 /* right-content-design */
 
@@ -286,12 +303,11 @@ main {
 .discount-container {
   width: 1320px;
   height: 986;
-  margin-left: 140px;
   margin-top: 120px;
   margin-bottom: 120px;
+  margin-left: 140px;
 }
 .discount-section {
-  /* margin-left: 140px; */
   text-align: center;
   background-image: url(images/Rectangle\ 1.png);
   background-repeat: no-repeat;
@@ -353,8 +369,8 @@ main {
 .gift-section{
     height: 1103px;
     width: 1320px;
-margin-left: 140px;
 margin-bottom: 120px;
+margin-left: 140px;
 }
 .gift-text{
     text-align: left;
@@ -401,12 +417,12 @@ row-gap: 24px;
 .contact-form{
     width: 1320px;
     height: 616px;
-   margin-left: 140px;
 
    border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
 align-items: center;
 text-align: center;
+margin-left: 140px;
 }
 .heading-contact{
     color: #070211;
@@ -438,8 +454,14 @@ padding-left: 200px;
     border-radius: 50px;
 background: #FFF;
     border: #fff;
-border: 0px whitesmoke;
+
+outline: none;
 }
+
+/* .label-btn:focus{
+
+  outline: none;
+} */
 input{
     border:none;
 }
@@ -450,9 +472,11 @@ border-radius: 0px 50px 50px 0px;
 background: #F00;
 position: relative ;
 right: 40px;
- border: 0px; 
-
+  border: 0px;
+outline: none;
 }
+
+
 .button-text{
     color: #FFF;
 text-align: center;
@@ -482,4 +506,114 @@ text-transform: capitalize;
     width: 1600px;
 height: 609px;
 
+}
+.footer-adress{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-contact-number{
+
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+/* line-height: 40px;  */
+}
+
+.footer-contact-adress-design{
+
+  display: flex;
+  
+ flex-direction: column;
+
+
+}
+.footer-contact-adress-1{
+  align-items: center;
+  display: flex;
+  gap: 5px;
+text-align: center;
+}
+.footer-contact-adress-2{
+  align-items: center;
+  display: flex;
+  gap: 5px;
+text-align: center;
+
+}
+/* .footer-contact-icon-1{
+
+   width: 24px;
+height: 24px; 
+
+}  */
+.footer-street-name{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; 
+width: 375px;
+height: 80px;
+
+}
+
+
+.footer-horizontal-line-1{
+
+  width: 1320px;
+height: 1px;
+margin-left: 140px;
+background: rgba(255, 255, 255, 0.15);
+
+}
+.footer-horizontal-line-2{
+
+  width: 1320px;
+height: 1px;
+
+background: rgba(99, 93, 93, 0.15);
+margin-left: 140px;
+
+}
+
+.social-media-icon{
+
+  height: 160px;
+  width: 1320px;
+}
+.social-media-icon-design{
+padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 200px;
+ column-gap: 15px;
+}
+.website-rules-text{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-top: 50px;
+}
+.first-text{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.scoend-text{
+  color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
